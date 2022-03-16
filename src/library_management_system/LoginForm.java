@@ -24,6 +24,7 @@ public class LoginForm extends javax.swing.JFrame {
         displayImage(); // displays the image onto the jpanel
     }
     
+    
    
     public void displayImage(){
         
