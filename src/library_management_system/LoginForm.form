@@ -106,11 +106,11 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jButton1" min="-2" pref="445" max="-2" attributes="0"/>
-                              <Component id="jPasswordField2" min="-2" pref="445" max="-2" attributes="0"/>
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jButton1" min="-2" pref="445" max="-2" attributes="0"/>
+                                  <Component id="jPasswordField2" min="-2" pref="445" max="-2" attributes="0"/>
                                   <Component id="jTextField3" min="-2" pref="445" max="-2" attributes="0"/>
                               </Group>
                           </Group>

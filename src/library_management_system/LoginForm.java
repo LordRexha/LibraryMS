@@ -15,7 +15,7 @@ public class LoginForm extends javax.swing.JFrame {
     /**
      * Creates new form LoginForm
      */
-    public LoginForm() {
+public LoginForm() {
         initComponents();
         
         this.setTitle("Login Form");
@@ -23,6 +23,7 @@ public class LoginForm extends javax.swing.JFrame {
         this.setLocationRelativeTo(null); //centers the form when file is run
         displayImage(); // displays the image onto the jpanel
     }
+    
     
     
    
