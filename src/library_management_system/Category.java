@@ -15,10 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 public class Category extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Category
-     */
-    public Category() {
+     public Category() {
         initComponents();
         connection();
         displayTableCategoryData();
@@ -31,6 +28,7 @@ public class Category extends javax.swing.JFrame {
     ResultSet rs;
     String username = "root";
     String password = "";
+    
     
     
     public void connection() {
