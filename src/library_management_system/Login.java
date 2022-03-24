@@ -1,7 +1,6 @@
-
 package library_management_system;
 
-//import library_management_system.HomeForm1;
+import library_management_system.HomeDashboard;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
@@ -24,18 +23,13 @@ public class Login extends javax.swing.JFrame {
         displayImage(); // displays the image onto the jpanel
     }
 
-
-
-
-    public void displayImage(){
+    public void displayImage() {
 
         ImageIcon imageI = new ImageIcon(getClass().getResource("/Image_Icons/book_logo_login.png")); //gets image from specific location
         Image image = imageI.getImage().getScaledInstance(jLabel_book_logo.getWidth(), jLabel_book_logo.getHeight(), Image.SCALE_SMOOTH); //makes image fit the jpanel
 
-
         jLabel_book_logo.setIcon(new ImageIcon(image)); //insert image into jLabel
     }
-
 
     private void initComponents() {
 
@@ -217,8 +211,8 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_jPasswordField2ActionPerformed
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
-        //HomeForm1 hf = new HomeForm1();
-        //hf.setVisible(true);
+        HomeDashboard hd = new HomeDashboard();
+        hd.setVisible(true);
 
     }//GEN-LAST:event_jButton1MouseClicked
 
@@ -259,7 +253,6 @@ public class Login extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel2;
@@ -272,7 +265,5 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPasswordField jPasswordField2;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
-    // End of variables declaration//GEN-END:variables
+
 }
-
-
